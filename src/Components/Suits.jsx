@@ -1,7 +1,10 @@
 import img from "../assets/suit.jpg";
-
+import Nav from './Nav'
 const Suits = () => {
   return (
+       <div>
+<Nav/>
+    
     <div className=" w-full min-h-screen flex px-2 md:px-10 py-6">
       <div className="w-full flex flex-col items-center justify-center p-4">
         <div
@@ -41,6 +44,7 @@ const Suits = () => {
           <div className=" w-full shadow shadow-[#54d0d4]  rounded-[40px] row-span-3 h-[510px] b"></div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

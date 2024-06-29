@@ -2,8 +2,12 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { TbNoCopyright } from "react-icons/tb";
 import { Link} from 'react-router-dom'
+import Nav from './Nav'
 const About = () => {
   return (
+    <div>
+<Nav/>
+   
     <div className="w-full flex min-h-screen px-2 md:px-10 py-6 mt-6 ">
       <div className=" w-full flex flex-col items-center justify-center p-4">
         <h1 className=" text-[45px] font-serif text-[#54d0d4] underline  ">
@@ -89,6 +93,7 @@ const About = () => {
           <p className=" text-sm font-semi-bold ">FAQs</p>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -6,7 +6,7 @@ import Testimonials from './Components/Testimonials'
 import About from './Components/About'
 import Bracelets from './Components/Bracelets'
 import Jews from './Components/Jews'
-import Nav from './Components/Nav'
+
 import Suits from './Components/Suits'
 import Swag from './Components/Swag'
 import Tradition from './Components/Tradition'
@@ -18,7 +18,7 @@ function App() {
   return (
     
 <div className=' max-h-screen  '>
-<Nav/>
+
   <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/Testimonials' element={<Testimonials/>}/>

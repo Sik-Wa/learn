@@ -2,8 +2,12 @@ import img from '../assets/wears.jpg'
 import {FaWhatsapp} from 'react-icons/fa'
 import {FaInstagramSquare} from 'react-icons/fa'
 import {TbNoCopyright} from 'react-icons/tb'
+import Nav from './Nav'
 const Jews = () => {
   return (
+       <div>
+<Nav/>
+   
     <div className=" w-full min-h-screen flex px-2 md:px-10 py-6">
    <div  className="w-full flex flex-col items-center justify-center p-4">
    <div
@@ -76,6 +80,7 @@ Lorem ipsum dolor sit amet.
         </div>
        
    </div>
+    </div>
     </div>
   )
 }

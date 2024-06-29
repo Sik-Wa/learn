@@ -1,7 +1,10 @@
 import img from '../assets/claims.jpg'
-
+import Nav from './Nav'
 const Testimonials = () => {
   return (
+       <div>
+<Nav/>
+    
     <div  className=" w-full min-h-screen flex px-2 md:px-10 py-6">
 <div className=" w-full flex flex-col items-center justify-center p-4">
 <h1 className=" text-[45px] font-mono ">TESTIMONIALS OF <br />
@@ -116,6 +119,7 @@ const Testimonials = () => {
   </div>
 </figure>
 </div>
+    </div>
     </div>
   );
 };
