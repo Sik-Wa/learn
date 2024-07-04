@@ -13,7 +13,7 @@ const Bracelets = () => {
       <div className="w-full flex flex-col items-center justify-center p-4">
         <div
           style={{ backgroundImage: `url(${img})` }}
-          className="mt-6 w-full bg-cover object-cover bg-center h-[800px]
+          className="mt-6 w-full bg-cover  object-cover bg-center h-[800px] 
            rounded-[40px] group relative shadow shadow-[#d47a54] overflow-hidden"
         >
           <div className="p-8  flex items-center justify-center mt-10">
@@ -35,20 +35,23 @@ const Bracelets = () => {
 Lorem ipsum dolor sit amet.
           </h1>
         </div>
-        <div className=" w-full grid grid-cols-2 md:grid-cols-4 items-center justify-center mt-6 gap-6">
+        <div className=" w-full grid grid-cols-1 md:grid-cols-4 items-center justify-center mt-6 gap-6">
           <div className=" w-full bg-cover object-cover bg-center h-96
            rounded-[40px] group relative shadow shadow-[#d47a54] overflow-hidden">
           </div>
+
           <div className=" w-full bg-cover object-cover bg-center h-96
            rounded-[40px] group relative shadow shadow-[#d47a54] overflow-hidden">
           </div>
-          <div className=" w-full bg-cover object-cover bg-center h-96
+
+          <div className=" col-span-3 md:col-span-1 w-full bg-cover object-cover bg-center h-96
            rounded-[40px] group relative shadow shadow-[#d47a54] overflow-hidden">
           </div>
-          <div className=" w-full bg-cover object-cover bg-center h-96
+
+          <div className=" w-full bg-cover col-span-3 md:col-span-1 object-cover bg-center h-96
            rounded-[40px] group relative shadow shadow-[#d47a54] overflow-hidden">
           </div>
-          <div className="col-span-2 w-full bg-cover object-cover bg-center h-96
+          <div className="col-span-3 md:col-span-1 w-full bg-cover object-cover bg-center h-96
            rounded-[40px] group relative shadow shadow-[#d47a54] overflow-hidden">
           </div>
           <div className="col-span-2 w-full bg-cover object-cover bg-center h-96
@@ -57,7 +60,7 @@ Lorem ipsum dolor sit amet.
           <div className="col-span-4 w-full bg-cover object-cover bg-center h-96
            rounded-[40px] group relative shadow shadow-[#d47a54] overflow-hidden">
           </div>
-          <div className=" col-span-1 w-full bg-cover object-cover bg-center h-96
+          <div className=" col-span-3 md:col-span-1 w-full bg-cover object-cover bg-center h-96
            rounded-[40px] group relative shadow shadow-[#d47a54] overflow-hidden">
           </div>
           <div className="col-span-3 w-full bg-cover object-cover bg-center h-96

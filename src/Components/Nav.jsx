@@ -12,7 +12,7 @@ import {RiMenuUnfoldFill} from 'react-icons/ri'
         
     };
    return (
-    <header className="   w-full h-10  relative z-50 md:fixed py-4 px-4
+    <header className="     h-10  relative z-50 md:fixed py-4 px-4
       from-transparent bg-gradient-to-b bg-slate-50
      shadow shadow-black">
         {/* Desktop nav section  */}
@@ -91,7 +91,7 @@ import {RiMenuUnfoldFill} from 'react-icons/ri'
           <Link to="/Bracelets" className=" font-sans text-xl">
             Bracelets
           </Link>
-          <Link to="/Jewelery" className=" font-sans text-xl">
+          <Link to="/Jews" className=" font-sans text-xl">
             Jewelery
           </Link>
           <Link to="/Designers" className=" font-sans text-xl">

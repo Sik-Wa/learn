@@ -1,5 +1,8 @@
 import img from "../assets/swag.jpg";
 import Nav from './Nav'
+import {FaWhatsapp} from 'react-icons/fa'
+import {FaInstagramSquare} from 'react-icons/fa'
+import {TbNoCopyright} from 'react-icons/tb'
 const Swag = () => {
   return (
       <div>
@@ -30,17 +33,26 @@ const Swag = () => {
             </div>
           </div>
         </div>
-        <div className=" w-full grid grid-cols-2 md:grid-cols-4 items-center justify-center mt-6 gap-1">
+        <div className=" w-full grid grid-cols-1 flex-col md:grid-cols-4 items-center justify-center mt-6 gap-1">
           <div className=" w-full shadow shadow-[#54d0d4]  rounded-[40px] col-span-2 h-[510px] b"></div>
           <div className=" w-full shadow shadow-[#54d0d4]  rounded-[40px] row-span-3 h-[510px] b"></div>
 
           <div className=" w-full shadow shadow-[#54d0d4]  rounded-[40px] row-span-3 h-[510px] b"></div>
           <div className="w-full  shadow shadow-[#54d0d4]  rounded-[40px] col-span-4 h-64 "></div>
           <div className=" w-full shadow shadow-[#54d0d4]  rounded-[40px] row-span-3 h-[510px] b"></div>
-          <div className=" w-full shadow shadow-[#54d0d4]  rounded-[40px] col-span-3 h-[510px] b"></div>
+          <div className=" w-full hidden md:flex shadow shadow-[#54d0d4]  rounded-[40px] col-span-3 h-[510px] b"></div>
         </div>
       </div>
     </div>
+    <div className=" mt-8 flex flex-col items-center justify-center   ">
+        <h1 className=" text-[25px] font-serif flex flex-row underline  ">
+          <TbNoCopyright className=" w-8 h-8"/>-T3-Stores.Co.Zm</h1>
+        <p className=" text-[15px] font-light">Details:</p>
+        <p className=" text-sm font-light">+260 776-061-217</p>
+        <p className=" text-sm font-light flex flex-row gap-1"><FaWhatsapp  className=" rounded w-4 h-4"/>+260 965-199-516</p>
+        <p className=" text-sm font-light flex flex-row gap-1"><FaInstagramSquare className=" rounded w-5 h-5"/>-@T3-Stores-123</p>
+        <p className=" text-sm font-semi-bold ">FAQs</p>
+        </div>
     </div>
   );
 };
